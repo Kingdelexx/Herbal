@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Remedy - Premium Herbal Products</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1505576399279-565b52d4ac71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: scale(1.05);
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #4ade80;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .form-input:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px #4ade80;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-leaf text-green-500 text-2xl"></i>
+                <span class="text-xl font-bold text-gray-800">Dr. DEE</span>
+            </div>
+            
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link text-gray-700 hover:text-green-500 transition">Home</a>
+                <a href="#products" class="nav-link text-gray-700 hover:text-green-500 transition">Products</a>
+                <!-- <a href="#about" class="nav-link text-gray-700 hover:text-green-500 transition">About</a>
+                <a href="#benefits" class="nav-link text-gray-700 hover:text-green-500 transition">Benefits</a>
+                <a href="#contact" class="nav-link text-gray-700 hover:text-green-500 transition">Contact</a> -->
+            </div>
+            
+            <button class="md:hidden text-gray-700 focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="md:hidden hidden bg-white shadow-lg" id="mobileMenu">
+        <div class="flex flex-col space-y-3 px-4 py-3">
+            <a href="#home" class="text-gray-700 hover:text-green-500 transition">Home</a>
+            <a href="#products" class="text-gray-700 hover:text-green-500 transition">Products</a>
+            <!-- <a href="#about" class="text-gray-700 hover:text-green-500 transition">About</a>
+            <a href="#benefits" class="text-gray-700 hover:text-green-500 transition">Benefits</a>
+            <a href="#contact" class="text-gray-700 hover:text-green-500 transition">Contact</a> -->
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero h-screen flex items-center justify-center text-white">
+        <div class="text-center px-4">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">SPECIAL NATURAL FERTILITY FOR HUSBAND AND WIFE</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">🧬 When  You Want a Baby, Soon?</p>
+            <a href="#products" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 inline-block">Explore Products</a>
+        </div>
+    </section>
+
+
+    <h2 class="text-3xl font-bold text-center mb-12 text-gray-800"></h2>
+    <h3 class="text-3xl font-bold text-center mb-12 text-gray-500">Suffering Miscarriages or Stillbirth? <br> Say No More</h3>
+    <h5 class="text-3xl font-bold text-center mb-12 text-gray-700">The Ultimate Male and Female Fertility Booster Backed by Nature and Trusted by Men and Women Who Mean Business in the Bedroom and Beyond.
+    </h5>
+    <h5 class="text-2xl font-bold text-center mb-12 text-gray-700">YES – You Heard That Right... <br>
+    You don’t have to keep wondering “WHY IS IT ME?" <br><br>
+    You don’t have to keep Googling "How to get my wife pregnant faster. <br><br>
+    And you definitely don’t need to feel less of a man because you’ve been “trying” with no results. <br>
+
+<br>
+If you want to feel like yourself again or maybe… trying to become a parent sooner than later
+Let’s talk solutions—real ones.
+    </h5>
+
+
+    <!-- Featured Products -->
+    <section id="products" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl  text-center mb-12 text-green-800">Introducing the European clinically tested natural curative Herbal Supplement to end all infertility problems in married couples:</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                
+                
+                <!-- Product 2 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-lg transition duration-300">
+                    <div class="h-64 bg-amber-100 flex items-center justify-center">
+                        <!-- <i class="fas fa-seedling text-amber-500 text-7xl"></i> -->
+                         <img src="images/pf.jpg" alt="">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-red-800">Probabe F</h3>
+                        <p class="text-gray-600 mb-4">(Fertility for women)</p>
+                        <p class="text-gray-600 mb-4">✓Prepare a woman for healthy pregnancy <br>
+
+✓Adjust menstrual circle and ovulation allowing pregnancy <br>
+
+✓ Boost libido and enhance sexual performance <br>
+
+✓ Prevent Neural Tube  Defect (NTD), menstrual circle and ovulation perturbations which are the most frequent causes of female infertility. Etc <br> <br>
+
+From irregular cycles to hormonal imbalance, womb care, and fertility struggles. ProBabe F is your body’s best friend. It supports your system gently but powerfully, helping you feel aligned, healthy, and ready. <br> <br>
+
+Two formulas. Two goals. One purpose.</p>
+                        <div class="flex justify-between items-center">
+                            <!-- <span class="text-green-500 font-bold text-lg">$18.99</span>
+                            <button class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded transition">Learn More</button> -->
+                        </div>
+                    </div>
+                </div>
+                
+                
+        </div>
+    </section>
+
+    <section id="products" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-lg transition duration-300">
+                    <div class="h-64 bg-green-100 flex items-center justify-center">
+                        <!-- <i class="fas fa-spa text-green-500 text-7xl"></i>
+                          -->
+                        <img src="images/pm.jpg" alt="">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-blue-800">Probabe M</h3>
+                        <p class="text-gray-600 mb-4">(for men)</p>
+                        <p class="text-gray-600 mb-4">When  You Want To Impregnate Your Wife Soon
+Whether you’re trying to boost performance, restore confidence, or become a proud dad soon. ProBabe M is your silent plug. Natural, effective, no pressure, just natural results.</p>
+                        <div class="flex justify-between items-center">
+                            <!-- <span class="text-green-500 font-bold text-lg">$12.99</span>
+                            <button class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded transition">Learn More</button> -->
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <img src="images/family.jpg" alt="Herbalist preparing remedies" class="rounded-lg shadow-lg w-full">
+                </div>
+                <div class="md:w-1/2">
+                    <!-- <h2 class="text-3xl font-bold mb-6 text-gray-800">Our Herbal Journey</h2> -->
+                    <p class="text-gray-600 mb-4">These specialized products has multiple benefits for married couple
+Why Hundreds of Men Trust ProBabeM to Deliver the Results They’ve Been Praying For: <br><br>
+💦 Boosts Seminal Fluid Production – More volume, more potency, more chances to impregnate <br> 
+
+🔥 Reignites Libido & Testicular Function – Feel like you're 25 again (even if you're not) <br>
+
+🚀 Supercharges Sexual Performance – For longer, stronger and more satisfying sessions <br>
+
+⏱️ Fights Premature Ejaculation – Stay in control, stay confident <br>
+
+🛡️ Reduces Prostate Swelling Risk – Supporting your long-term manhood health <br>
+
+🍼 Naturally Supports Fertility – No chemicals. Just results backed by time-tested herbal science <br>
+
+</p>
+                    <p class="text-gray-600 mb-6">This Isn’t Just a “Performance Pill” It’s a Fertility-First Formula Designed for Real Results
+Let’s talk facts:
+You're here because you want to impregnate your woman,  not just have better sex.
+You're here because you want to handle business in the bedroom like a man who’s ready to build a family.
+</p>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="flex items-center bg-white px-4 py-2 rounded-full shadow">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span>100% Natural</span>
+                        </div>
+                        <div class="flex items-center bg-white px-4 py-2 rounded-full shadow">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span>Organic Certified</span>
+                        </div>
+                        <div class="flex items-center bg-white px-4 py-2 rounded-full shadow">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span>Sustainably Sourced</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">You may have tried:</h2> -->
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">You may have tried:</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-green-50 p-6 rounded-lg">
+                    <div class="text-green-500 text-4xl mb-4">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800"></h3>
+                    <p class="text-gray-600">❌ Waiting and hoping it “just happens” <br>
+❌ Drinking random concoctions or Google recipes <br>
+❌ Popping those expensive “blue pills” that treat the symptom, not the problem</p> <br> <br>
+                    <p class="text-gray-600">None of those worked. Why?
+Because they’re not designed to address the root cause — fertility, sperm quality, and male reproductive health.</p>
+                </div>
+                
+                <div class="bg-amber-50 p-6 rounded-lg">
+                    <div class="text-amber-500 text-4xl mb-4">
+                        <!-- <i class="fas fa-brain"></i> -->
+                    </div>
+                    <!-- <h3 class="text-xl font-bold mb-2 text-gray-800">Holistic Approach</h3> -->
+                    <p class="text-gray-600">So What Makes Dr. Dee's ProBabeM Different? <br>
+ProBabeM is a powerful herbal supplement  produced in Europe for you to: <br><br>
+
+✅ Increase sperm count and mobility <br>
+✅ Support testicular health <br>
+✅ Revive sexual drive and energy <br>
+✅ Improve semen quality and volume <br><br>
+
+All naturally — without risky drugs or hormone treatments. <br> <br>
+
+One Capsule A Day. Three Months To Life-Changing Results. <br>
+Trusted By Thousands of Men all over Europe and now sweeping away  infertility Across Nigeria and  Beyond</p>
+                </div>
+                
+                <!-- <div class="bg-blue-50 p-6 rounded-lg">
+                    <div class="text-blue-500 text-4xl mb-4">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">Sustainable Wellness</h3>
+                    <p class="text-gray-600">Plant-based solutions that are gentle on your body and the environment for a healthier planet.</p>
+                </div> -->
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-green-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">What Our Customers Say</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="testimonial-card bg-white p-6 rounded-lg shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-green-500"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Chinedu, 38, Lagos.</h4>
+                            <div class="flex text-amber-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"After just 7  weeks on ProBabeM, my wife is pregnant! We had tried for 4 years. honestly can’t believe it."</p>
+                </div>
+                
+                <div class="testimonial-card bg-white p-6 rounded-lg shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-green-500"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Ibrahim, 42, Kano</h4>
+                            <div class="flex text-amber-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"I didn’t expect it to improve my performance too, but I feel like I’m back in my 20s. My wife even noticed the difference!"</p>
+                </div>
+                
+                <div class="testimonial-card bg-white p-6 rounded-lg shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-green-500"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Emeka, 43, Abuja</h4>
+                            <div class="flex text-amber-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"It’s discreet, affordable, and it works. Period"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="mt-12 bg-gray-100 rounded-lg p-8">
+                <h3 class="text-2xl font-bold mb-4 text-center text-gray-800">Here’s Everything You Get When You Order Today:</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="text-center">
+                        <div class="bg-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 shadow">
+                            <i class="fas fa-leaf text-green-500 text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold mb-2">🔥   Fertility  Starter Pack (1 Bottle)</h4>
+                        <p class="text-gray-600 text-sm">Perfect for testing the waters	 N34,000</p><br>
+                        <p class="text-gray-600 text-sm">👶 2 Bottles N64,000</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 shadow">
+                            <i class="fas fa-leaf text-amber-500 text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold mb-2">🧬  Power Pack (3 Bottles)</h4>
+                        <p class="text-gray-600 text-sm">Full 3 months package 90,000 – BEST VALUE</p>
+                        <p class="text-gray-600 text-sm">📦 Enjoy Free Nationwide Delivery Before Payment.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 shadow">
+                            <i class="fas fa-leaf text-blue-500 text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold mb-2">🧑 Free Fertility Consultation After Order call :  Dr. C N JUSTA on  
+
+                        <a href="wa.link/h4bhnc" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 inline-block">+234-7034885699</a>
+                         (WHATSAPP only)
+
+                        </h4>
+                        <p class="text-gray-600 text-sm">💌 Private Packaging – No Embarrassment Guaranteed</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-800 text-white">
+        <div class="container mx-auto px-4">
+            <!-- <h2 class="text-3xl font-bold text-center mb-12">Get In Touch</h2> -->
+            
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <!-- <h3 class="text-xl font-bold mb-4">Contact Information</h3> -->
+                    <p class="mb-6">⚠️ Make Order Now While Stock Last! <br>
+Secure yours now before it’s too late. <br> <br>
+
+💯 Our Bold Fertility Guarantee: <br>
+If you don’t feel a noticeable difference in libido, volume, or performance within 30 days — you don’t pay. <br>
+Just send us a message. That’s how confident we are in Dr. Dee's ProBabe M and
+Dr. Dee's PROBABE F <br><br>
+
+✅ Ready To Start Your Motherhood and Fatherhood Journey? <br>
+
+📦 Click this WhasAPP number <a href="wa.link/fp9h22" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 inline-block">+234-8033731636</a> to book your order now. <br>
+
+🎯 We Deliver FAST — You Handle The Rest <br>
+<br><br>
+
+“This one capsule a day changed everything for me.”
+<br>
+👉 Thank Your God Now, Your Waiting To Become Joyful  Fathers and Mothers is Now!
+<br>
+Which one are you reaching for? 💚
+<br>
+ORDER NOW! <br>
+ <!-- <button><a href="wa.link/fp9h22">+234-8033731636</a></button> -->
+ <a href="wa.link/fp9h22" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 inline-block">+234-8033731636</a>
+
+<br><br>
+
+Dr. DEE'S HEALTHCARE....  European Certified Natural  Solution</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <!-- <i class="fas fa-map-marker-alt text-green-400 mt-1 mr-4"></i> -->
+                            <div>
+                                <!-- <h4 class="font-bold">Our Location</h4> -->
+                                <!-- <p>123 Green Valley Road, Herbal Heights, HV 12345</p> -->
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <!-- <i class="fas fa-phone-alt text-green-400 mt-1 mr-4"></i> -->
+                            <div>
+                                <!-- <h4 class="font-bold">Call Us</h4> -->
+                                <!-- <p>+1 (555) 123-4567</p> -->
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <!-- <i class="fas fa-envelope text-green-400 mt-1 mr-4"></i> -->
+                            <div>
+                                <!-- <h4 class="font-bold">Email Us</h4> -->
+                                <!-- <p>info@naturesremedy.com</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <!-- <h4 class="font-bold mb-4">Business Hours</h4> -->
+                        <!-- <p>Monday - Friday: 9am - 6pm</p> -->
+                        <!-- <p>Saturday: 10am - 4pm</p> -->
+                        <!-- <p>Sunday: Closed</p> -->
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <!-- <form class="bg-gray-700 p-6 rounded-lg">
+                        <div class="mb-4">
+                            <label for="name" class="block mb-2">Your Name</label>
+                            <input type="text" id="name" class="form-input w-full px-4 py-2 rounded bg-gray-600 border border-gray-500 focus:border-green-400 transition">
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="email" class="block mb-2">Email Address</label>
+                            <input type="email" id="email" class="form-input w-full px-4 py-2 rounded bg-gray-600 border border-gray-500 focus:border-green-400 transition">
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="subject" class="block mb-2">Subject</label>
+                            <input type="text" id="subject" class="form-input w-full px-4 py-2 rounded bg-gray-600 border border-gray-500 focus:border-green-400 transition">
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="message" class="block mb-2">Your Message</label>
+                            <textarea id="message" rows="5" class="form-input w-full px-4 py-2 rounded bg-gray-600 border border-gray-500 focus:border-green-400 transition"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded transition w-full">Send Message</button>
+                    </form> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <!-- <section class="py-12 bg-green-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold mb-4">Join Our Herbal Community</h2>
+            <p class="mb-6 max-w-2xl mx-auto">Subscribe to our newsletter for exclusive offers, herbal tips, and wellness advice straight to your inbox.</p>
+            
+            <div class="max-w-md mx-auto flex">
+                <input type="email" placeholder="Your email address" class="flex-grow px-4 py-3 rounded-l focus:outline-none text-gray-800">
+                <button class="bg-green-800 hover:bg-green-900 px-6 py-3 rounded-r font-bold transition">Subscribe</button>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i class="fas fa-leaf text-green-500 text-2xl"></i>
+                        <span class="text-xl font-bold text-white">Dr. DEE</span>
+                    </div>
+                    <p class="max-w-xs">Bringing the healing power of nature to your doorstep with premium products.</p>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="text-white font-bold mb-4">Quick Links</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#home" class="hover:text-green-400 transition">Home</a></li>
+                            <li><a href="#products" class="hover:text-green-400 transition">Products</a></li>
+                            <!-- <li><a href="#about" class="hover:text-green-400 transition">About Us</a></li>
+                            <li><a href="#contact" class="hover:text-green-400 transition">Contact</a></li> -->
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <!-- <h4 class="text-white font-bold mb-4">Products</h4> -->
+                        <ul class="space-y-2">
+                            <!-- <li><a href="#" class="hover:text-green-400 transition">Herbal Teas</a></li>
+                            <li><a href="#" class="hover:text-green-400 transition">Tinctures</a></li>
+                            <li><a href="#" class="hover:text-green-400 transition">Capsules</a></li>
+                            <li><a href="#" class="hover:text-green-400 transition">Essential Oils</a></li> -->
+                        </ul>
+                    </div>
+                    
+                    <!-- <div>
+                        <h4 class="text-white font-bold mb-4">Connect</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-green-500 transition">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-green-500 transition">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-green-500 transition">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-green-500 transition">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-sm flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2025 Dr. DEE. All rights reserved.</p>
+                <div class="mt-4 md:mt-0">
+                    <!-- <a href="#" class="hover:text-green-400 transition mr-4">Privacy Policy</a>
+                    <a href="#" class="hover:text-green-400 transition">Terms of Service</a> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('button').addEventListener('click', function() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobileMenu');
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+        
+        // Form submission
+        const contactForm = document.querySelector('form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form values
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const subject = document.getElementById('subject').value;
+                const message = document.getElementById('message').value;
+                
+                // Here you would typically send the form data to your server
+                // For this example, we'll just show an alert
+                alert(`Thank you, ${name}! Your message has been received. We'll contact you at ${email} soon.`);
+                
+                // Reset form
+                contactForm.reset();
+            });
+        }
+    </script>
+</body>
+</html>
